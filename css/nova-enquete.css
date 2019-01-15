@@ -1,0 +1,93 @@
+.enquete{
+	background-color: #3197d6;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: row;
+    align-items: flex-start;
+	justify-content: center;
+	color: white;
+}
+
+.enquete-box{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.detalhes-item{
+	margin-top: 10px;
+	width: 100%;
+}
+
+.enquete-form-item{
+	border: 2px solid white;
+	padding: 0px 20px 10px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.opcao-item {
+	border: 2px solid white;
+	padding: 10px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.opcao-add {
+	border: 2px solid white;
+	padding: 10px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+    justify-content: center;
+	cursor: pointer;
+}
+
+.opcao-remove{
+	cursor: pointer;
+}
+
+.enquete-form-end{
+	margin-bottom: 20px;
+	text-align: right;
+}
+
+.enquete-form-button{
+	border: 2px solid white;
+	padding: 10px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0);
+	cursor: pointer;
+}
+
+.enquete form{
+	width: 70%;
+}
+
+.detalhes-item input{
+	width: 100%;
+	color: #434e57;
+}
+
+.opcao-item input{
+	width: 90%;
+	color: #434e57;
+}
+
+.enquete textarea {
+   	resize: none;
+	font-family:sans-serif;
+   	width: 100%;
+	color: #434e57;
+}
+

@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Login</title>
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+	</head>
+	<body>
+		<div class="login-box">
+			<img src="./images/user.png" class="user">
+			<h1>Nova Conta</h1>
+			<form method="post" action="login.html" onsubmit="return validaForm(this)">
+				<p>Nome</p>
+				<input type="text" name="nome" placeholder="Digite aqui seu nome" />
+				<p>E-mail</p>
+				<input type="text" name="email" placeholder="Digite aqui seu e-mail" />
+				<p>Senha</p>
+				<input type="password" name="senha" placeholder="Digite aqui sua senha" />
+				<input type="submit" name="submit" value="Criar Conta" />
+			</form>
+		</div>
+		<script type="text/javascript" src="javascript/nova-conta.js"></script>
+		<script type="text/javascript" src="javascript/cookie-service.js"></script>
+	</body>
+</html>

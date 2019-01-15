@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="css/nova-enquete.css" />
+		<link rel="stylesheet" type="text/css" href="css/body.css" />
+	</head>
+
+	<body onload="onLoad()">
+		<!-- Header -->
+		<header>
+			<div class="header-box">
+				<div class="header-left">
+					<a href="index.html"><img src="images/SmartGroupLogoBranco.png" /></a>
+					<div class="header-title"><a href="index.html">Smart Group</a></div>
+				</div>
+				<div class="header-right" id="header-right"></div>
+			</div>
+		</header>
+
+		<!--  Nova Enquete -->
+		<div class="enquete">
+			<div class="enquete-box">
+				<h1>Nova Enquete</h1>
+				<form method="post" action="dashboard.html" onsubmit="return validaForm(this)">
+
+					<div class="enquete-form-item">
+						<h2>Detalhes</h2>
+  						<div class="detalhes-item">
+		                    <label>Nome:</label><br/>
+		                    <input type="text" name="nome" placeholder="Dê um nome para a sua enquete" />
+		                </div>
+						<div class="detalhes-item">
+		                    <label>Descrição:</label><br/>
+		                    <textarea rows="3" name="desc" placeholder="Descreva o problema a ser votado"></textarea>
+		                </div>
+					</div>
+
+					<div class="enquete-form-item">
+						<h2>Opções</h2>
+ 						<div class="enquete-opcoes" id="opcoes">
+							<div class="opcao-add" id="opcao-add" onclick="addOpcao()">
+								+ Add Opção
+							</div>
+						</div> 
+					</div>
+					<div class="enquete-form-end">
+						<input type="submit" class="enquete-form-button" value="Concluir" />
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<!--  Footer -->
+		<footer>
+			<div class="footer-box">
+				Marcos Esmeraldino | Jéssica | Elizandra
+				<br/>
+				<br/>
+				© 2018 SMART GROUP INC. Todos os direitos reservados.
+			</div>
+		</footer>
+
+		<script type="text/javascript" src="javascript/nova-enquete.js"></script>
+		<script type="text/javascript" src="javascript/header.js"></script>
+		<script type="text/javascript" src="javascript/cookie-service.js"></script>
+	</body>
+</html>

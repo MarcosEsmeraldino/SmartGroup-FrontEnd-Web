@@ -1,0 +1,143 @@
+.resume{
+	background-color: #3197d6;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+    align-items: center;
+	justify-content: space-around;
+	color: white;
+}
+
+.resume-box-1{
+	width: 90%;
+	height: 90%;
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+	justify-content: center;
+}
+
+.resume-box{
+	width: 45%;
+}
+
+.resume a{
+	color: white;
+	text-decoration: none;
+}
+
+.resume-box img{
+	width: 95%;
+}
+
+.resume h1{
+	font-size: 42px;
+}
+
+.resume p{
+	font-size: 22px;
+}
+
+.resume-button{
+	font-size: 32px;
+	border: 2px solid white;
+	padding: 10px;
+}
+
+.how{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+    align-items: center;
+	justify-content: space-around;
+	color: #3197d6;
+}
+
+.how-box-1{
+	width: 90%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	justify-content: space-around;
+}
+
+.how h1{
+	font-size: 42px;
+}
+
+.how-box{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+    align-items: baseline;
+	justify-content: space-around;
+}
+
+.how-box-item{
+	width: 40vh;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.how-box-item img{
+	border: 3px solid #3197d6;
+	border-radius: 90px;
+	width: 150px;
+}
+
+.how-box-item h1{
+	font-size: 22px;
+}
+
+.download{
+	background-color: #3197d6;
+	width: 100%;
+	height: 50vh;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: space-around;
+	color: white;
+}
+
+.download-box-1{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	justify-content: space-between;
+}
+
+.download-button{
+	font-size: 32px;
+	border: 2px solid white;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.download-box{
+	width: 60%;
+	margin: 30px;
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+	justify-content: space-around;
+}
+
+.download-box-app{
+	border: 2px solid white;
+	padding: 10px;
+	background-color: black;
+}
+
+.download h1{
+	font-size: 32px;
+	margin: 0px;
+}
+
+.download img{
+	height: 80px;
+}

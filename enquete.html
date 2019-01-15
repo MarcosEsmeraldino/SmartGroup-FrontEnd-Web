@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="css/enquete.css" />
+		<link rel="stylesheet" type="text/css" href="css/body.css" />
+	</head>
+
+	<body onload="onLoad()">
+		<!-- Header -->
+		<header>
+			<div class="header-box">
+				<div class="header-left">
+					<a href="index.html"><img src="images/SmartGroupLogoBranco.png" /></a>
+					<div class="header-title"><a href="index.html">Smart Group</a></div>
+				</div>
+				<div class="header-right" id="header-right"></div>
+			</div>
+		</header>
+
+
+		<!--  Nova Enquete -->
+		<div class="enquete">
+			<div class="enquete-box">
+				<h1>Enquete</h1>
+				<div class="form">
+					<div class="enquete-form-item" id="enquete-content">
+					</div>
+					<div class="enquete-form-end">
+						<a href="#" class="enquete-form-button-remove" onclick="remove()">Apagar</a>
+						<a href="#" class="enquete-form-button" onclick="share()">Compartilhar</a>
+						<a href="enquete-votar.html" class="enquete-form-button" onclick="vote()">Votar</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--  Footer -->
+		<footer>
+			<div class="footer-box">
+				Marcos Esmeraldino | Jéssica | Elizandra
+				<br/>
+				<br/>
+				© 2018 SMART GROUP INC. Todos os direitos reservados.
+			</div>
+		</footer>
+
+		<script type="text/javascript" src="javascript/enquete.js"></script>
+		<script type="text/javascript" src="javascript/header.js"></script>
+		<script type="text/javascript" src="javascript/cookie-service.js"></script>
+	</body>
+</html>

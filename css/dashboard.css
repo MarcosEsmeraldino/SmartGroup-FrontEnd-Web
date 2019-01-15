@@ -1,0 +1,64 @@
+.dash{
+	background-color: #3197d6;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: row;
+    align-items: flex-start;
+	justify-content: center;
+	color: white;
+}
+
+.dash-box{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.dash-enquetes{
+	width: 70%;
+	padding: 0px 20px 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.enquete-item{
+	border: 2px solid white;
+	padding: 10px;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+	cursor: pointer;
+}
+
+.enquete-item-empty{
+	border: 2px solid white;
+	padding: 10px;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.enquete-item p{
+	margin: 0px;
+}
+
+.nova-enquete-button{
+	font-size: 32px;
+	border: 2px solid white;
+	padding: 10px;
+}
+
+.dash-enquetes a{
+	color: white;
+	text-decoration: none;
+}

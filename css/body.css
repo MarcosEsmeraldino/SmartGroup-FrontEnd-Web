@@ -1,0 +1,136 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+}
+
+header{
+	width: 100%;
+	position: fixed;
+	display: flex;
+    align-items: center;
+	justify-content: space-around;
+	background-color: rgba(0, 0, 0, 0.3);
+	color: white;
+	font-size: 16px;
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+}
+
+header img{
+	width: 40px;
+	margin-right: 20px;
+}
+
+.header-box{
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+	justify-content: space-between;
+	width: 90%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.header-left{
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+	justify-content: flex-start;
+}
+
+.header-right{
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+	justify-content: flex-end;
+}
+
+.header-title{
+	font-size: 24px;
+}
+
+.header-item-right{
+	padding: 0 0 0 20px;
+}
+
+.header-button{
+	border: 2px solid white;
+	padding: 10px;
+}
+
+.header-menu{
+	border: none;
+	padding: 10px;
+  	background: none;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.header-menu:focus {
+	/*remove borda de button*/
+	outline-style: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    overflow: auto;
+    z-index: 1;
+}
+
+.dropdown-content a {
+	color: #3197d6;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-top: 1px solid #3197d6;
+}
+
+.dropdown-content a:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.show {
+	display: block;
+}
+
+.seta-baixo:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  width: 0; 
+  height: 0; 
+
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid white;
+}
+
+footer{
+	background-color: #212121;
+	height: 200px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+.footer-box{
+	width: 90%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}

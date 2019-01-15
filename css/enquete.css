@@ -1,0 +1,79 @@
+.enquete{
+	background-color: #3197d6;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: row;
+    align-items: flex-start;
+	justify-content: center;
+	color: white;
+}
+
+.enquete-box{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.enquete-form-item{
+	border: 2px solid white;
+	padding: 0px 20px 10px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.opcao-item {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+
+.desc {
+	border: 2px solid white;
+	padding: 10px;
+	width: 70%;
+	text-align: left;
+}
+
+.aprovacao{
+	border: 2px solid white;
+	width: 20%;
+	padding: 10px;
+	text-align: center;
+}
+
+.form{
+	width: 70%;
+}
+
+.enquete-form-end{
+	margin-top: 30px;
+	text-align: right;
+}
+
+.enquete-form-end a{
+	text-decoration: none;
+}
+
+.enquete-form-button{
+	border: 2px solid white;
+	padding: 10px;
+	margin-left: 20px;
+	color: white;
+}
+
+.enquete-form-button-remove{
+	border: 2px solid rgba(255, 255, 255, 0.5);
+	padding: 10px;
+	margin-left: 20px;
+	color: rgba(255, 255, 255, 0.5);
+}
